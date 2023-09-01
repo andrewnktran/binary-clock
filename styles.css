@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.row {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.circle {
+    /* Add styling for circles here */
+    border-radius: 50%;
+}
+
+.on {
+    background-color: #55aaff;
+    color: white;
+}
+
+.off {
+    background-color: #ddd;
+    color: black;
+}
